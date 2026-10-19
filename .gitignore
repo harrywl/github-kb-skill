@@ -1,0 +1,15 @@
+# 抓取的官方手册快照（体积大，用 scripts/fetch-official-docs.sh 现取）
+gh-docs/
+
+# 环境与密钥类文件一律不入库
+.env
+.env.*
+*.token
+hosts.yml
+credentials*
+
+# 编辑器 / 系统
+.DS_Store
+*.swp
+.idea/
+.vscode/
